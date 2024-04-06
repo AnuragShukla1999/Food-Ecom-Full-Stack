@@ -2,12 +2,12 @@ import jwt from 'jsonwebtoken';
 
 export const auth = async (req, res, next) => {
     try {
-        console.log(req.headers)
+        // console.log(req.headers)
         const token = req.headers.authorization;
 
         const decode =  jwt.verify(token.split(' ')[1],process.env.JWT_SECRET);
         
-        console.log(decode);
+        // console.log(decode);
 
         req.user = decode;
 

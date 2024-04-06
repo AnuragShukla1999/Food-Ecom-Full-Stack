@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const Profile = () => {
   const user = useSelector((state)=>state.user)
-console.log(user)
+// console.log(user)
   //address content
   const [showAdd, setShowAdd] = useState(false);
   const [addressDetails, setAddressDetails] = useState({

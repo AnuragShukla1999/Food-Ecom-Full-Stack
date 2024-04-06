@@ -29,7 +29,7 @@ function App() {
   // },[])
 
   useEffect(() => {
-    console.log("user availble",token)
+    // console.log("user availble",token)
     if (token) {
       (
         async () => {

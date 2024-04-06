@@ -10,7 +10,7 @@ const Cart = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
-  console.log(user);
+  // console.log(user);
 
   // const stripeURL =
   //   "https://restaurant-e-commerce-server.vercel.app/create-checkout-session";
